@@ -5,10 +5,16 @@
 ```shell
 pip3 install RPI.GPIO
 ```
-
+circuit python for busio and board modules
+micropython included
 ```shell
 pip3 install adafruit-blinka
 ```
+VL6180X specific part library module for circuit python
+```shell
+pip install adafruit-circuitpython-vl6180x
+```
+
 The computer will install a few different libraries such as adafruit-pureio (our ioctl-only i2c library), spidev (for SPI interfacing), Adafruit-GPIO (for detecting your board) and of course adafruit-blinka
 
 
