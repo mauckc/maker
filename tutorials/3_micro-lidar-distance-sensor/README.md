@@ -14,9 +14,7 @@ VL6180X specific part library module for circuit python
 ```shell
 pip install adafruit-circuitpython-vl6180x
 ```
-
 The computer will install a few different libraries such as adafruit-pureio (our ioctl-only i2c library), spidev (for SPI interfacing), Adafruit-GPIO (for detecting your board) and of course adafruit-blinka
-
 
 ## Test CircuitPython installation
 create a new file named blinkatest.py
@@ -42,9 +40,6 @@ print("SPI ok!")
 
 print("done!")
 ```
-
-
-
 ## i2c device 
 
 ```python3
@@ -57,7 +52,6 @@ import board
 import busio
  
 import adafruit_vl6180x
- 
  
 # Create I2C bus.
 i2c = busio.I2C(board.SCL, board.SDA)
@@ -85,5 +79,7 @@ while True:
     time.sleep(1.0)
 ```
 ## Resources
-* [adafruit](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
-* https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/python-circuitpython
+
+* [device overview: adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/)
+* [device downloads: adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/downloads)
+* [setup: installing-circuitpython-on-raspberry-pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
