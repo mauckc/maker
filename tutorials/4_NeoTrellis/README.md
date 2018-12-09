@@ -1,5 +1,8 @@
 
+## Resources
 
+* [adafruit NeoTrellis M4 with Enclocsure and Buttons Pack](https://www.adafruit.com/product/4020)
+* [PCB-and-Enclosure Eagle CAD files](https://github.com/adafruit/Adafruit-NeoTrellis-M4-PCB-and-Enclosure)
 ## Requirements
 Have circuitpython installed using
 ```shell
@@ -30,3 +33,4 @@ while True:
     time.sleep(0.08)
     current_press = pressed
 ```
+
