@@ -1,6 +1,18 @@
 # maker
 An open resource for building integrated embedded computer technologies
 
+## Tips
+To clone a branch without fetching other branches:
+
+
+```
+mkdir $BRANCH
+cd $BRANCH
+git init
+git remote add -t $BRANCH -f origin $REMOTE_REPO
+git checkout $BRANCH
+```
+
 ## Tools for makers
 
 ### Internet of Things devices
